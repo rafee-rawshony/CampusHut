@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .font-poppins {
+    font-family: Poppins, ui-sans-serif, system-ui, sans-serif;
+  }
+  .font-inter {
+    font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  }
+  .bg-t-bg-ellipse-12heart-small {
+    background-image: url(/assets/Ellipse.svg);
+  }
+  .bg-g-922500x {
+    background-image: url(/assets/g-922500x-7.png);
+  }
+  .bg-download-appstore {
+    background-image: url(/assets/download-appstore.png);
+  }
+}

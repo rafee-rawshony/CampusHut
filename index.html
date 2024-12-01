@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500" />
+  <title>CampusHut</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="stylesheet" type="text/css" href="compiled-styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body style="margin: 0px">
+  <!-- This only removes default margins in our renderer iframe, you may remove -->
+
+  <!-- hero  -->
+  <div id="firejet-html-app">
+    <div class="flex w-full items-start">
+      <div
+        class="font-poppins flex h-full w-full flex-shrink-0 flex-col gap-y-[30px] overflow-clip bg-white pt-14 leading-6 tracking-[0px]">
+
+        <div
+          class="flex flex-wrap items-center justify-center gap-x-[53px] gap-y-5 pl-[304px] pr-32 min-[1430px]:flex-nowrap">
+          <div class="flex flex-col items-center self-stretch pt-px">
+            <!-- Added CampusHut section -->
+            <div class="font-inter text-2xl font-bold leading-6 tracking-[0.48px] mb-3">
+              CampusHut
+            </div>
+          </div>
+          <div
+            class="flex h-11 flex-grow flex-wrap items-center justify-center gap-x-10 gap-y-3 min-[1430px]:flex-nowrap">
+            <a href="index.html" class="hover:underline text-blue-600">Home</a>
+            <a href="category.html" class="hover:underline text-blue-600">Category</a>
+            <a href="about.html" class="hover:underline text-blue-600">About</a>
+            <a href="login.html" class="hover:underline text-blue-600">Login</a>
+             <div class="mt-[0.5px] flex h-11 items-center justify-end pb-px pl-3.5">
+              <div
+                class="flex h-11 flex-grow items-center justify-center rounded-[7px] bg-[cornflowerblue] px-6 [max-width:208px]">
+                <div
+                  class="mt-[0.5px] flex flex-grow items-center justify-center text-center text-xl leading-6 text-white">
+                  <a href="create_account.html">Create Account</a>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center justify-end pl-3.5">
+              <object data="/assets/Wishlist.svg" class="h-8 w-8 flex-shrink-0"></object>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="flex flex-col justify-end pt-3">
+          <object data="/assets/Line.svg" class="h-[0.5px] flex-shrink-0"></object>
+        </div>
+        <!-- current add path -->
+        <div class="relative z-0 flex items-end justify-center px-[135px] pt-7 text-neutral-50">
+          <div
+            class="z-[1] flex flex-grow flex-col items-start justify-end gap-y-px bg-black pb-3 pl-16 pr-[707px] pt-64">
+            <div class="flex flex-wrap items-center gap-x-4 gap-y-[11px] pt-0.5 min-[1430px]:flex-nowrap">
+              <div class="flex h-[22px] flex-col items-center">
+                <div class="-mb-0.5 font-medium">View ads</div>
+              </div>
+              <object data="/assets/IconsArrowRight.svg" class="h-6 w-6 flex-shrink-0"></object>
+            </div>
+            <object data="/assets/Line1.svg" class="h-px flex-shrink-0 self-stretch"></object>
+            <div class="flex items-end justify-end pl-72 pt-[22px]">
+              <div class="flex items-center justify-center gap-x-3">
+                <object data="/assets/Ellipse1.svg" class="h-3 w-3 flex-shrink-0"></object><object
+                  data="/assets/Ellipse1.svg" class="h-3 w-3 flex-shrink-0"></object>
+                <div class="relative z-0 flex h-2.5 w-3 flex-shrink-0 flex-col items-center">
+                  <object data="/assets/Ellipse2.svg" class="absolute inset-y-0 left-0.5 right-0 z-0"></object><object
+                    data="/assets/Ellipse3.svg" class="z-[2] -mb-1 ml-px h-3.5 w-3.5 flex-shrink-0"></object>
+                </div>
+                <div class="flex flex-col items-center pl-0.5">
+                  <object data="/assets/Ellipse1.svg" class="h-3 w-3 flex-shrink-0"></object>
+                </div>
+                <object data="/assets/Ellipse1.svg" class="h-3 w-3 flex-shrink-0"></object>
+              </div>
+            </div>
+          </div>
+          
+          <div
+            class="font-inter absolute inset-x-56 inset-y-40 z-[2] text-center text-5xl font-semibold leading-[60px] tracking-[0.64px]">
+            Current Ads
+          </div>
+        </div>
+        <!-- latest adds path -->
+        <div class="flex items-end px-36 pt-8">
+          <div class="flex items-center justify-center gap-x-4">
+            <div class="h-10 w-5 flex-shrink-0 rounded bg-[cornflowerblue]"></div>
+            <div class="font-semibold leading-5 text-[cornflowerblue]">
+              Today’s Latest Ads
+            </div>
+          </div>
+        </div>
+        <!-- products -->
+        <div class="flex items-end justify-center pl-[136px] pr-32 pt-6">
+          <div
+            class="flex flex-grow flex-wrap items-center justify-center gap-x-[30px] gap-y-[30px] font-medium min-[1430px]:flex-nowrap">
+            <!-- product card -->
+            <a href="product_detail.html" class="block">
+              <div
+                class="flex flex-col items-start gap-y-2 border border-gray-300 rounded-lg p-3 w-64 h-auto transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                <!-- Image container with bg-blue-50 -->
+                <div class="relative flex items-center justify-center rounded bg-blue-50 h-48 w-full overflow-hidden">
+                  <img src="public/assets/g-922500x-3.png" alt="Product Image"
+                    class="w-full h-full object-cover rounded-md" />
+                  <!-- Icons -->
+                  <div class="absolute top-3 left-3 flex flex-col gap-2">
+                    <div
+                      class="bg-t-bg-ellipse-12heart-small flex h-[34px] w-[34px] items-center justify-center bg-cover bg-center p-[5px]">
+                      <object data="/assets/HeartSmall.svg" class="z-[2] h-6 w-6"></object>
+                    </div>
+                    <div
+                      class="bg-t-bg-ellipse-12heart-small flex h-[34px] w-[34px] items-center justify-center bg-cover bg-center p-[5px]">
+                      <object data="/assets/QuickView.svg" class="z-[2] h-6 w-6"></object>
+                    </div>
+                  </div>
+                </div>
+                <!-- Product Info -->
+                <div class="pt-2 text-lg font-semibold">Product Name</div>
+                <div class="text-[cornflowerblue] text-xl font-bold">৳ Price</div>
+              </div>
+            </a>
+            <!-- end of product card -->
+
+            <!-- product card -->
+            <a href="product_detail.html" class="block">
+              <div
+                class="flex flex-col items-start gap-y-2 border border-gray-300 rounded-lg p-3 w-64 h-auto transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                <!-- Image container with bg-blue-50 -->
+                <div class="relative flex items-center justify-center rounded bg-blue-50 h-48 w-full overflow-hidden">
+                  <img src="public/assets/g-922500x-3.png" alt="Product Image"
+                    class="w-full h-full object-cover rounded-md" />
+                  <!-- Icons -->
+                  <div class="absolute top-3 left-3 flex flex-col gap-2">
+                    <div
+                      class="bg-t-bg-ellipse-12heart-small flex h-[34px] w-[34px] items-center justify-center bg-cover bg-center p-[5px]">
+                      <object data="/assets/HeartSmall.svg" class="z-[2] h-6 w-6"></object>
+                    </div>
+                    <div
+                      class="bg-t-bg-ellipse-12heart-small flex h-[34px] w-[34px] items-center justify-center bg-cover bg-center p-[5px]">
+                      <object data="/assets/QuickView.svg" class="z-[2] h-6 w-6"></object>
+                    </div>
+                  </div>
+                </div>
+                <!-- Product Info -->
+                <div class="pt-2 text-lg font-semibold">Product Name</div>
+                <div class="text-[cornflowerblue] text-xl font-bold">৳ Price</div>
+              </div>
+            </a>
+            <!-- end of product card -->
+
+
+            <!-- product card -->
+            <a href="product_detail.html" class="block">
+              <div
+                class="flex flex-col items-start gap-y-2 border border-gray-300 rounded-lg p-3 w-64 h-auto transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                <!-- Image container with bg-blue-50 -->
+                <div class="relative flex items-center justify-center rounded bg-blue-50 h-48 w-full overflow-hidden">
+                  <img src="public/assets/g-922500x-3.png" alt="Product Image"
+                    class="w-full h-full object-cover rounded-md" />
+                  <!-- Icons -->
+                  <div class="absolute top-3 left-3 flex flex-col gap-2">
+                    <div
+                      class="bg-t-bg-ellipse-12heart-small flex h-[34px] w-[34px] items-center justify-center bg-cover bg-center p-[5px]">
+                      <object data="/assets/HeartSmall.svg" class="z-[2] h-6 w-6"></object>
+                    </div>
+                    <div
+                      class="bg-t-bg-ellipse-12heart-small flex h-[34px] w-[34px] items-center justify-center bg-cover bg-center p-[5px]">
+                      <object data="/assets/QuickView.svg" class="z-[2] h-6 w-6"></object>
+                    </div>
+                  </div>
+                </div>
+                <!-- Product Info -->
+                <div class="pt-2 text-lg font-semibold">Product Name</div>
+                <div class="text-[cornflowerblue] text-xl font-bold">৳ Price</div>
+              </div>
+            </a>
+            <!-- end of product card -->
+
+
+            <!-- product card -->
+            <a href="product_detail.html" class="block">
+              <div
+                class="flex flex-col items-start gap-y-2 border border-gray-300 rounded-lg p-3 w-64 h-auto transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                <!-- Image container with bg-blue-50 -->
+                <div class="relative flex items-center justify-center rounded bg-blue-50 h-48 w-full overflow-hidden">
+                  <img src="public/assets/g-922500x-3.png" alt="Product Image"
+                    class="w-full h-full object-cover rounded-md" />
+                  <!-- Icons -->
+                  <div class="absolute top-3 left-3 flex flex-col gap-2">
+                    <div
+                      class="bg-t-bg-ellipse-12heart-small flex h-[34px] w-[34px] items-center justify-center bg-cover bg-center p-[5px]">
+                      <object data="/assets/HeartSmall.svg" class="z-[2] h-6 w-6"></object>
+                    </div>
+                    <div
+                      class="bg-t-bg-ellipse-12heart-small flex h-[34px] w-[34px] items-center justify-center bg-cover bg-center p-[5px]">
+                      <object data="/assets/QuickView.svg" class="z-[2] h-6 w-6"></object>
+                    </div>
+                  </div>
+                </div>
+                <!-- Product Info -->
+                <div class="pt-2 text-lg font-semibold">Product Name</div>
+                <div class="text-[cornflowerblue] text-xl font-bold">৳ Price</div>
+              </div>
+            </a>
+            <!-- end of product card -->
+             
+          </div>
+        </div>
+        <div class="flex items-center justify-center pl-[3px]">
+          <div class="rounded bg-[cornflowerblue] px-12 py-4 text-center font-medium text-neutral-50">
+            View All Ads
+          </div>
+        </div>
+
+        <!-- latest adds path -->
+        <div class="flex items-end px-36 pt-8">
+          <div class="flex items-center justify-center gap-x-4">
+            <div class="h-10 w-5 flex-shrink-0 rounded bg-[cornflowerblue]"></div>
+            <div class="font-semibold leading-5 text-[cornflowerblue]">
+              Other Ads
+            </div>
+          </div>
+        </div>
+
+        <!-- products -->
+        <div class="flex items-end justify-center pl-[136px] pr-32 pt-6">
+          <div
+            class="flex flex-grow flex-wrap items-center justify-center gap-x-[30px] gap-y-[30px] font-medium min-[1430px]:flex-nowrap">
+            
+            <!-- product card -->
+            <a href="product_detail.html" class="block">
+              <div
+                class="flex flex-col items-start gap-y-2 border border-gray-300 rounded-lg p-3 w-64 h-auto transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                <!-- Image container with bg-blue-50 -->
+                <div class="relative flex items-center justify-center rounded bg-blue-50 h-48 w-full overflow-hidden">
+                  <img src="public/assets/g-922500x-3.png" alt="Product Image"
+                    class="w-full h-full object-cover rounded-md" />
+                  <!-- Icons -->
+                  <div class="absolute top-3 left-3 flex flex-col gap-2">
+                    <div
+                      class="bg-t-bg-ellipse-12heart-small flex h-[34px] w-[34px] items-center justify-center bg-cover bg-center p-[5px]">
+                      <object data="/assets/HeartSmall.svg" class="z-[2] h-6 w-6"></object>
+                    </div>
+                    <div
+                      class="bg-t-bg-ellipse-12heart-small flex h-[34px] w-[34px] items-center justify-center bg-cover bg-center p-[5px]">
+                      <object data="/assets/QuickView.svg" class="z-[2] h-6 w-6"></object>
+                    </div>
+                  </div>
+                </div>
+                <!-- Product Info -->
+                <div class="pt-2 text-lg font-semibold">Product Name</div>
+                <div class="text-[cornflowerblue] text-xl font-bold">৳ Price</div>
+              </div>
+            </a>
+            <!-- end of product card -->
+
+
+
+            <!-- product card -->
+            <a href="product_detail.html" class="block">
+              <div
+                class="flex flex-col items-start gap-y-2 border border-gray-300 rounded-lg p-3 w-64 h-auto transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                <!-- Image container with bg-blue-50 -->
+                <div class="relative flex items-center justify-center rounded bg-blue-50 h-48 w-full overflow-hidden">
+                  <img src="public/assets/g-922500x-3.png" alt="Product Image"
+                    class="w-full h-full object-cover rounded-md" />
+                  <!-- Icons -->
+                  <div class="absolute top-3 left-3 flex flex-col gap-2">
+                    <div
+                      class="bg-t-bg-ellipse-12heart-small flex h-[34px] w-[34px] items-center justify-center bg-cover bg-center p-[5px]">
+                      <object data="/assets/HeartSmall.svg" class="z-[2] h-6 w-6"></object>
+                    </div>
+                    <div
+                      class="bg-t-bg-ellipse-12heart-small flex h-[34px] w-[34px] items-center justify-center bg-cover bg-center p-[5px]">
+                      <object data="/assets/QuickView.svg" class="z-[2] h-6 w-6"></object>
+                    </div>
+                  </div>
+                </div>
+                <!-- Product Info -->
+                <div class="pt-2 text-lg font-semibold">Product Name</div>
+                <div class="text-[cornflowerblue] text-xl font-bold">৳ Price</div>
+              </div>
+            </a>
+            <!-- end of product card -->
+
+
+            <!-- product card -->
+            <a href="product_detail.html" class="block">
+              <div
+                class="flex flex-col items-start gap-y-2 border border-gray-300 rounded-lg p-3 w-64 h-auto transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                <!-- Image container with bg-blue-50 -->
+                <div class="relative flex items-center justify-center rounded bg-blue-50 h-48 w-full overflow-hidden">
+                  <img src="public/assets/g-922500x-3.png" alt="Product Image"
+                    class="w-full h-full object-cover rounded-md" />
+                  <!-- Icons -->
+                  <div class="absolute top-3 left-3 flex flex-col gap-2">
+                    <div
+                      class="bg-t-bg-ellipse-12heart-small flex h-[34px] w-[34px] items-center justify-center bg-cover bg-center p-[5px]">
+                      <object data="/assets/HeartSmall.svg" class="z-[2] h-6 w-6"></object>
+                    </div>
+                    <div
+                      class="bg-t-bg-ellipse-12heart-small flex h-[34px] w-[34px] items-center justify-center bg-cover bg-center p-[5px]">
+                      <object data="/assets/QuickView.svg" class="z-[2] h-6 w-6"></object>
+                    </div>
+                  </div>
+                </div>
+                <!-- Product Info -->
+                <div class="pt-2 text-lg font-semibold">Product Name</div>
+                <div class="text-[cornflowerblue] text-xl font-bold">৳ Price</div>
+              </div>
+            </a>
+            <!-- end of product card -->
+
+
+            <!-- product card -->
+            <a href="product_detail.html" class="block">
+              <div
+                class="flex flex-col items-start gap-y-2 border border-gray-300 rounded-lg p-3 w-64 h-auto transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                <!-- Image container with bg-blue-50 -->
+                <div class="relative flex items-center justify-center rounded bg-blue-50 h-48 w-full overflow-hidden">
+                  <img src="public/assets/g-922500x-3.png" alt="Product Image"
+                    class="w-full h-full object-cover rounded-md" />
+                  <!-- Icons -->
+                  <div class="absolute top-3 left-3 flex flex-col gap-2">
+                    <div
+                      class="bg-t-bg-ellipse-12heart-small flex h-[34px] w-[34px] items-center justify-center bg-cover bg-center p-[5px]">
+                      <object data="/assets/HeartSmall.svg" class="z-[2] h-6 w-6"></object>
+                    </div>
+                    <div
+                      class="bg-t-bg-ellipse-12heart-small flex h-[34px] w-[34px] items-center justify-center bg-cover bg-center p-[5px]">
+                      <object data="/assets/QuickView.svg" class="z-[2] h-6 w-6"></object>
+                    </div>
+                  </div>
+                </div>
+                <!-- Product Info -->
+                <div class="pt-2 text-lg font-semibold">Product Name</div>
+                <div class="text-[cornflowerblue] text-xl font-bold">৳ Price</div>
+              </div>
+            </a>
+            <!-- end of product card -->
+
+          </div>
+        </div>
+        <div class="flex items-center justify-center pl-[3px]">
+          <div class="rounded bg-[cornflowerblue] px-12 py-4 text-center font-medium text-neutral-50">
+            View All Ads
+          </div>
+        </div>
+        <!-- footer -->
+        <div class="mt-32 flex flex-col justify-end gap-y-[60px] bg-black pb-6 pt-20">
+          <div class="flex items-center justify-end pl-[135px] pr-[88px]">
+            <div
+              class="flex flex-grow flex-wrap items-start justify-center gap-x-[87px] gap-y-[87px] text-neutral-50 min-[1430px]:flex-nowrap">
+              <div class="flex flex-col items-start gap-y-4">
+                <div class="font-inter text-2xl font-bold leading-6 tracking-[0.48px]">
+                  Exclusive
+                </div>
+                <div class="pt-2 text-xl font-medium leading-7">
+                  Subscribe
+                </div>
+                <div class="pt-2">Get Latest Updates</div>
+                <div
+                  class="flex items-center justify-center rounded border-x-[1.5px] border-t-[1.5px] border-solid border-neutral-50 py-[11px] pl-[15px] pr-3.5 [border-bottom-width:1.5px]">
+                  <div class="flex items-center justify-center gap-x-8">
+                    <div>Enter your email</div>
+                    <object data="/assets/IconSend.svg" class="h-6 w-6 flex-shrink-0"></object>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col items-start gap-y-4">
+                <div class="text-xl font-medium leading-7">Support</div>
+                <div class="flex items-end self-stretch pr-12 pt-2 [max-width:222px]">
+                  <div class="flex flex-grow items-end">
+                    <p>Daffodil Smart City Birulia, Savar, Dhaka-1216</p>
+                  </div>
+                </div>
+                <div>campushut@gmail.com</div>
+                <div>+88015-88888-9999</div>
+              </div>
+              <div class="flex flex-col items-start gap-y-4">
+                <div class="text-xl font-medium leading-7">Account</div>
+                <div class="pt-2">My Account</div>
+                <div>Login / Register</div>
+                <div>Cart</div>
+                <div>Wishlist</div>
+                <div>Add</div>
+              </div>
+              <div class="flex flex-col items-start gap-y-4">
+                <div class="text-xl font-medium leading-7">Quick Link</div>
+                <div class="flex flex-col items-center pt-2">
+                  <div>Privacy Policy</div>
+                </div>
+                <div>Terms Of Use</div>
+                <div>FAQ</div>
+                <div>Contact</div>
+              </div>
+              <!-- <div class="flex flex-col items-start gap-y-2 font-medium">
+                  <div class="text-xl leading-7">Download App</div>
+                  <div class="flex flex-col items-center pr-1 pt-4">
+                    <div class="text-xs leading-[18px]">
+                      Save $3 with App New User Only
+                    </div>
+                  </div>
+                  <div class="flex items-center justify-center gap-x-2">
+                    <div class="flex h-20 w-20 flex-shrink-0 flex-col items-center bg-black" >
+                      <img
+                        src="/assets/qrcode.jpeg"
+                        loading="lazy"
+                        class="-mb-px h-20 w-20 flex-shrink-0 border-x-[2.5px] border-t-[2.5px] border-solid border-x-white border-y-white object-cover object-center [border-bottom-width:2.5px]"
+                      />
+                    </div>
+                    <div class="flex flex-col items-start gap-y-1">
+                      <object
+                        data="/assets/GooglePlay.svg"
+                        class="h-10 w-28 flex-shrink-0"
+                      ></object>
+                      <div class="flex flex-col items-center bg-black p-[2.4px]" >
+                        <div class="bg-download-appstore h-9 max-h-full w-[105px] max-w-full flex-shrink-0 rounded border-x-[0.6px] border-t-[0.6px] border-solid border-x-white border-y-white bg-no-repeat [background-position:-1.01px_-37.21px] [background-size:102%_311%] [border-bottom-width:0.6px]" ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-x-6 pt-4">
+                    <object
+                      data="/assets/IconFacebook.svg"
+                      class="h-6 w-6 flex-shrink-0"
+                    ></object
+                    ><object
+                      data="/assets/IconTwitter.svg"
+                      class="h-6 w-6 flex-shrink-0"
+                    ></object
+                    ><object
+                      data="/assets/IconInstagram.svg"
+                      class="h-6 w-6 flex-shrink-0"
+                    ></object
+                    ><object
+                      data="/assets/IconLinkedin.svg"
+                      class="h-6 w-6 flex-shrink-0"
+                    ></object>
+                  </div>
+                </div> -->
+            </div>
+          </div>
+          <div class="flex flex-col gap-y-4 opacity-40">
+            <object data="/assets/UnderLine.svg" class="h-0 flex-shrink-0"></object>
+            <div class="flex flex-wrap items-center justify-center gap-x-1.5 gap-y-1.5 min-[1430px]:flex-nowrap">
+              <object data="/assets/IconCopyright.svg" class="h-5 w-5 flex-shrink-0"></object>
+              <div class="text-white">
+                Copyright CampusHut 2022. All right reserved
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
